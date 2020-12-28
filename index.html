@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Let's Code</title>
+<link rel="stylesheet" href="./css/index.css">
+<link rel="stylesheet" href="./css/dropdown.css">
+<script src="./js/jquery.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div class="row">
+          <!-- sample question -->
+          <div >
+            <div >
+                <div >
+                    <span > 
+                        <h2>Sort an array of 0s, 1s and 2s </h2>
+                                            </span>
+                    <span >
+                                            <a href="https://auth.geeksforgeeks.org/?to=https%3A%2F%2Fpractice.geeksforgeeks.org%2Fproblems%2Fsort-an-array-of-0s-1s-and-2s4231%2F1" class="login-modal-btn"> <i id="bookmarkIcon" class="far fa-bookmark" aria-hidden="true" data-toggle="tooltip" title="" data-original-title="Add Bookmark"></i> </a>
+                          
+                    </span>
+                                            <a style="text-align: center;width: 30px;height: 30px; border-radius:50%; position:absolute; right:0px;" class="btn btn-success fa fa-pencil editProblemBtn" data-toggle="modal" data-target="#editProblemModal" href="#"></a>
+                          
+                </div>
+                <div class="row problem-meta-summary">
+                    <strong class="problem-tab__problem-level"> Easy </strong>
+                    <span class="problem-tab__problem-accuracy"> <span class="problem-tab__key">Accuracy:</span> <span class="problem-tab__value"> 51.36% </span> </span>
+                    <span class="problem-tab__problem-total-submissions"> <span class="problem-tab__key"> Submissions:</span> <span class="problem-tab__value"> 27790 </span> </span>
+                    <span class="problem-tab__problem-points"> <span class="problem-tab__key"> Points:</span> <span class="problem-tab__value"> 2 </span> </span>
+                </div>
+                <hr style="margin-top: 10px;">
+            </div>  
+            <div class="problem-statement">
+                <p></p><p><span style="font-size:18px">Given an array of size N containing only 0s, 1s, and 2s; sort the array in ascending order.</span></p>
+
+<p><br>
+<span style="font-size:18px"><strong>Example 1:</strong></span></p>
+
+<pre><span style="font-size:18px"><strong>Input: </strong>
+N = 5
+arr[]= {0 2 1 2 0}
+<strong>Output:</strong> 0 0 1 2 2
+<strong>Explanation:</strong> 0s 1s and 2s are segregated 
+into ascending order.</span></pre></br>
+
+
+<span style="font-size:18px"><strong>Your Task:</strong><br>
+You don't need to read input or print anything. Your task is to complete the function <strong>sort012() </strong>that takes array and n as input parameters and <strong>sorts the array in-place.&nbsp;</strong></span></p>
+
+<p><br>
+<span style="font-size:18px"><strong>Expected Time Complexity: </strong>O(n)<br>
+<strong>Expected Auxiliary Space:</strong> O(1)</span></p>
+
+
+
+<p><span style="font-size:18px"><strong>Constraints:</strong><br>
+1 &lt;= N &lt;= 10^5<br>
+0 &lt;= A[i] &lt;= 2</span></p>
+ <p></p>
+            </div>
+                        
+            
+ 
+        </div>
+
+
+            <!-- sample question end -->
+        </div>
+        <div class="row">
+            <div class="subcontainer">
+                <ul class="menu cf">
+                    <li><a id="name"></a></li>
+                    <li>
+                      <a id ="lang" >C Lang</a>
+                      <ul class="submenu">
+                        <li><a onclick="changeLang(this)" >C Lang</a></li>
+                        <li><a onclick="changeLang(this)" >C++</a></li>
+                        <li><a onclick="changeLang(this)" >C++14</a></li>
+                        <li><a onclick="changeLang(this)" >Java</a></li>
+                        <li><a onclick="changeLang(this)" >Python3</a></li>
+                      </ul>			
+                    </li>
+                    <li><a onclick="openFullscreen()">FullScreen</a></li>
+                    <li><a id="theme">Theme</a>
+                        <ul class="submenu">
+                            <li onclick="changeTheme('Monokai')"><a >Monokai</a>Dark</li>
+                            <li onclick="changeTheme('Terminal')"><a>Terminal</a>Dark</li>
+                            <li onclick="changeTheme('Eclipse')"><a>Eclipse</a>Bright</li>
+                            <li onclick="changeTheme('Xcode')"><a>Xcode</a>Bright</li>
+                          </ul>	
+                        </li>
+                    <li id="reset" onclick="Reset()"><a >Reset</a></li>
+                  </ul>
+            <div id="editor"></div>
+            <div class="botn">
+                <button id="submit" class="btn" onclick='Run("Yes")'>Submit</button>
+                <button id="run" class="btn" onclick='Run("NO")'>Run</button>
+                <a class="btn"  id="msg"></a>
+            </div>
+            <div id="field">
+                <div class="row"><b><i>InPUT:</i></b><textarea id="input" name="Text1" cols="40" rows="10"></textarea></div>
+                    <div class="row"><b><i>OuTPUT:</i></b><textarea  style="margin-left:10px" id="output" name="Text2" cols="40" rows="10"></textarea></div>
+            </div>
+        </div>
+        </div>
+      </div>
+    
+    <script src="./src/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./js/ace_doc.js"></script>
+    <script src="./js/Header.js"></script>
+    <script src="./js/request.js"></script>
+</body>
+</html>

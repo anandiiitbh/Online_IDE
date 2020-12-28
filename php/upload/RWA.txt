@@ -1,0 +1,17 @@
+Programming LANG:	CPP14
+
+========================= CODE =========================
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+	//Do your code here
+	cout<<"hello world";
+	return 0;
+}
+
+========================= INPUT =========================
+
+
+========================= OUTPUT =========================
+hello world

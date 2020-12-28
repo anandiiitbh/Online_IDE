@@ -1,0 +1,78 @@
+html,
+body {
+  height: 100%;
+}
+/* optional: get rid of body margin. makes look nice. */
+body {
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+#field {
+  width: 50%;
+  margin-left: 1cm;
+  flex: 1;
+  margin-top: 1cm;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.row {
+  flex: 0.8;
+  background: rgb(250, 225, 225);
+}
+
+/* optional: shade the bottom row */
+.row:nth-child(2) {
+  flex: 1.2;
+  background: rgb(245, 208, 208);
+}
+
+/* code editor */
+
+.ace_editor {
+  border: 1px solid lightgray;
+  margin: auto;
+  margin-left: 1cm;
+  height: 50%;
+  width: 90%;
+}
+
+.subcontainer {
+  border: 1px;
+  border-radius: 10px;
+  padding: 10px;
+  height: 94%;
+  margin: 10px;
+  box-shadow: 5px 5px 8px #4c4444;
+}
+
+.code_header {
+  border: 1px;
+  margin-left: 1cm;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 4px;
+  width: 95%;
+  box-shadow: 5px 5px 8px #4c4444;
+}
+
+/* button */
+
+.botn {
+  margin-right: 40px;
+}
+
+.btn {
+  float: right;
+  margin: 5px;
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
